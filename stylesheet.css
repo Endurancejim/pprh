@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Spline+Sans+Mono:wght@500;600;700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+  }
+
+
+  
+body {
+    font-family: ' Roboto Slab';
+    font-weight: 400;
+    color: #353535;
+    background: #f1fbff;
+    line-height: 1.7;
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #222;
+    white-space: nowrap;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+   
+}
+
+p {
+    letter-spacing: 3px;
+    line-height: 2rem;
+    font-size: large;
+}
+
+
+/* navr bar */
+#navbarNav a{
+    color: #070707;
+    font-weight: 500;
+    transition: all 0.4s;
+    font-size:larger;
+
+}
+
+#navbarNav a:hover{
+    color: #f1962d;
+}
+
+#btn-brand {
+    background-color: #A3866A;
+    border-color: #A3866A;
+    color: white;
+    border-radius: 0;
+
+
+}
+
+#btn-brand:hover{
+    background-color: #ca925e;
+    transition: all 0.4s;
+    color: white;
+}
+
+/*header*/
+
+#slide1 {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/a3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#slide2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/a2.jpg');   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+#slide3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/a1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item h1{
+    font-weight: 800;
+    letter-spacing: 2PX;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-item h1{
+        white-space: pre-line;
+        margin: auto;
+    
+    }
+}
+
+.carousel-item h6{
+    font-size: medium;
+    letter-spacing: 1.9;
+    text-align: center;
+}
+
+.carousel-item .btn-header-brand {
+    color: white;
+    border-radius: 0;
+    border-color: #c0731c;
+    color:  white;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    font-weight: 500;
+   
+}
+
+.carousel-item .btn-header-brand:hover {
+    border-radius: 0;
+    border-color: #c0731c;
+    color:  #c0731c;
+    background-color: white;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    font-weight: 500;
+    transition: 0.7s;
+   
+}
+.carousel-item h1{
+    font-weight: 800;
+    letter-spacing: 2PX;
+}
+
+
+div .intro-pic{
+    margin-top: 5%;
+}
+div .intro{
+    text-align: center;
+    font-size: large;
+    color: #222;
+    letter-spacing: 3px;
+    padding-top: 2%;
+    font-weight: 500;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2rem;
+}
+
+.intro-slide {
+    margin-top: 2%;
+    padding: 2%;
+}
+
+div .slider-img {
+    box-shadow: -20px 30px 10px #A3866A;
+    margin-bottom: 3%;
+  }
+
+div .intro-text{
+    margin-top: 5%;
+    padding-right: 2%;
+}
+
+div .intro-line {
+    border-top: 3px solid;
+    color: #A3866A;
+}
+
+@media screen and (max-width: 900px) {
+    div #kick-text {
+        white-space: pre-line;
+        margin: auto;
+    
+    }
+}
+
+div .intro-button {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 0;
+    border-color:  #A3866A;
+}
+
+div .intro-button:hover{
+    background-color: #A3866A;
+    color: white;
+    border-color: #A3866A;
+    transition: 0.4s;
+}
+
+
+/* CARD */
+
+.card-container{
+    margin-top: 5%;
+    position: relative;
+}
+div .card {
+    display:inline-block;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 3%;
+    
+}
+
+div .card img {
+    transition: all 1.5s ease;
+} 
+
+
+div .card:hover img {
+    transform: scale(1.5);
+}
+
+div .card-detail{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+div .card-detail h2 {
+    color: white;
+    font-weight: 700;
+}
+
+div .card-detail h2:hover {
+    color: #f1962d;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+
+div #card-btn {
+    background-color: #A3866A;
+    color: white;
+    border-color: #A3866A;
+    border-radius: 0;
+    border-color: #A3866A;
+    align-items: center;
+    font-weight: 700;
+    
+    
+}
+
+div #card-btn:hover{
+    background-color:  white;
+    color: #A3866A;
+    transition: all 0.4s;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    
+}
+
+div .card-img {
+    position: relative;
+    z-index: -1;
+}
+
+
+/* @media screen and (max-width: 600px) {
+    div .card-col{
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+    }
+} */
+
+
+/* Occassion */
+
+#occassion_bg {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.occ_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.venu_img {
+    box-shadow: -20px 30px 10px #A3866A;
+    margin-bottom: 3%;
+    
+  }
+
+  @media only screen and (max-width: 750px){
+    .stay_option .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dining{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dining .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .shop{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .shop_cont .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .amenities_cont .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .adventure{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .adventure .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .event .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .wedding .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .venue{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .venue .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .event .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .spa{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .spa .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fitness .position {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  }
+  
+
+  @media only screen and (max-width: 750px){
+    .large_screen {
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width: 760px){
+    .small_screen {
+        display: none;
+    }
+  }
+
+
+  /* Adventure */
+#adventure_bg {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#wellness_bg {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/wellness-2048x1365.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* Dining */
+
+div .slider2-img {
+    box-shadow: 20px 30px 10px #A3866A;
+    margin-bottom: 3%;
+  }
+
+#dining_bg{
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/JRP_12-Gage-Dinner-copy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+  /* shop */
+  #shop_bg{
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/a65-design-1eJVSUfT5yA-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+/* Review */
+
+#reviews-bg{
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/jason-leung-poI7DelFiVA-unsplash.jpg');
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.review .quote-icon {
+    font-size: 74px;
+    color: #f1962d;
+
+}
+
+.review .star{
+    color: #f1962d;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+    margin-bottom: -3rem;
+}
+
+
+/*About*/
+
+.modal-bod{
+    background-color: #353535;
+}
+.modal-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Accommodation */
+
+.general_room{
+    background-color: #cccdce;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 4%;
+   
+}
+
+.acc_text{
+    background-color: #f1fbff;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+   
+
+}
+
+.acc_img{
+    width: 100%;
+    height: 100%;
+    padding-top: 4%;
+}
+
+.acc_button {
+    background-color: #A3866A;
+    color: #f1fbff;
+    font-size: larger;
+    border-color: #A3866A;
+
+}
+
+.acc_button:hover {
+    background-color:  #353535;
+    color: #A3866A;
+    font-size: larger;
+    border-color: #353535;
+    transition: 0.3s;
+}
+
+/*Standard Room */
+
+#s_room1 {
+    background-image:  url('img/christian-mackie-6BJu73-UJpg-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#s_room2 {
+    background-image:  url('img/im3rd-media-CbZ4EDP__VQ-unsplash.jpg');   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+#s_room3 {
+    background-image:  url('img/raquel-navalon-alvarez-TWj0qbJn4zI-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#s_room4 {
+    background-image:  url('img/spacejoy-RUvW1KGD9a4-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item .room_h1{
+    font-weight: 800;
+    letter-spacing: 10%;
+    font-size: 900;
+    line-height: 20%;
+}
+
+
+/*Suit De Lodge */
+
+#r_room1 {
+    background-image:  url('img/sidekix-media-g51F6-WYzyU-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#r_room2 {
+    background-image:  url('img/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg');   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+#r_room3 {
+    background-image:  url('img/sidekix-media-r_y2VBvEOIE-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#r_room4 {
+    background-image:  url('img/spacejoy-umAXneH4GhA-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Executive Double Room */
+
+#e_room1 {
+    background-image:  url('img/steven-ungermann-wE7qDv11kio-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#e_room2 {
+    background-image:  url('img/zac-gudakov-y79dt3dhTxc-unsplash.jpg');   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+#e_room3 {
+    background-image:  url('img/oning-gdJpDTU85ek-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#e_room4 {
+    background-image:  url('img/sidekix-media-WgkA3CSFrjc-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*OnlineBooking*/
+
+.booking-detail{
+    background-color: #cccdce;
+}
+
+.carous .carousel-item {
+    height: 500px;
+  
+}
+
+
+.btn-text-right{
+    text-align: right;
+}
+
+.btn-booking{
+    background-color: #A3866A;
+    border: #A3866A;
+    border-radius: 0;
+    color:#f1fbff;
+   
+}
+
+.btn-booking:hover{
+    background-color: black;
+    border: black;
+    border-radius: 0;
+    color: white;
+}
+
+.modal-body {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('img/jason-leung-poI7DelFiVA-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.text{
+    font-size: 30px;
+    color: white;
+}
+
+.form-control{
+    height:50px;
+    font-size:14pt;
+}
+
+.bt-modal {
+    background-color: #A3866A;
+    color: white;
+    border-color: #A3866A;
+}
+
+.bt-modal:hover {
+    background-color: white;
+    color: #A3866A;
+    border-color: white;
+    transition: 0.4s;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #353535;
+}
+
+div .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+
+ .footer-text {
+    color: white;
+ }
+
+ .footer-text:hover {
+    color: #A3866A;
+    transition: 0.4s;
+ }
+
+
+ .footer-text-link{
+    color: white;
+ }
+
+ .link-col{
+  
+ }
+
+
+@media screen and (max-width: 400px) {
+    #footer-email {
+        white-space: pre-line;
+        margin: auto;
+    
+    }
+}
+
+@media only screen and (min-width: 351px){
+    .below_xx_screen {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 350px){
+    .above_xx_screen {
+        display: none;
+    }
+  }
+
+
+
+
+
+
+

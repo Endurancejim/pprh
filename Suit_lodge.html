@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fontawesome.min.css">
+
+  </head>
+  <body>
+
+    <!-- nav bar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md bg-light shadow" id="navbar-brand navbar" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/Precious-Palm-Royal-Hotel-01-oz1j62zppf2ouvxw6vfhh6kw53rld30td1sx5l1zq8.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto " >
+              <li class="nav-item " id="navbar-brand">
+                <a class="nav-link active bg-light" aria-current="page" href="index.html">Hotel</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link mx-1 bg-light" id="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1 bg-light" id="navbar-brand" href="Accomodation.html">Rooms & Suits</a>
+              </li>
+              <li class="nav-item">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1 bg-light" id="navbar-brand" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <a class="btn btn-lg text-white" id="btn-brand"data-bs-target="#empleModalTogg" data-bs-toggle="modal">Book Your Stay</a>
+          </div>
+        </div>
+      </nav> 
+
+      <!--Standard  Room -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner vh-100">
+                <div class="carousel-item active w-100 bg-cover vh-100 text-center" id="r_room1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                  <div class="row justify-content-center">
+                    <h1 class="room_h1" style="color: white"><i>Suit De Lodge</i></h1>
+                      <P></P>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item  vh-100 bg-cover text-center" id="r_room2">
+                      <div class="container h-100 d-flex align-items-center justify-content-center">
+                        <div class="row justify-content-center">
+                          <div class="col-lg-8 ">
+                            <h1 class="room_h1" style="color: #A3866A"><i>Suit De Lodge</i></h1>
+                          
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item  vh-100 bg-cover text-center" id="r_room3">
+                    <div class="container h-100 d-flex align-items-center justify-content-center">
+                      <div class="row justify-content-center">
+                        <div class="col-lg-8 ">
+                          <h1 class="room_h1" style="color:#353535"><i>Suit De Lodge </i></h1>
+                   
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item  vh-100 bg-cover text-center" id="r_room4">
+                  <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8 ">
+                        <h1 class="room_h1" style="color: #A3866A"><i>Suit De Lodge</i></h1>
+                 
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 ">
+        <div class="row ">
+          <div class="col-lg-3 col-md-3 mx-auto mb-3 ">
+            <h3 style="color: #A3866A;">Suit De Lodge Room     
+            </h3>
+          </div>
+          <div class="col-lg-7 col-md-7">
+            <p>Luxurious and tastefully designed superior rooms, offer a comfortable and stylish stay. Whether you're travelling with family or friends, this room has plenty of space for everyone.</p>
+          </div>
+         
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-6 mx-auto pt-2">
+              <h4>Features</h4>
+              <hr>
+              <div class="d-flex" style="font-size: x-small;">
+                <i class="fa-solid fa-sun fa-2x pt-2" style="color: #353535;"></i>
+                <p class="mx-3">Sun loungers and seating on private balcony</p>
+              </div>
+              <hr>
+              <div class="d-flex" style="font-size: x-small;">
+                <i class="fa fa-wifi fa-2x  pt-2 " style="color: #353535;"></i>
+                <p class="mx-3">High-speed internet</p>
+              </div>
+              <hr>
+              <div class="d-flex" style="font-size: x-small;">
+                <i class="fa fa-bath fa-2x  pt-2 " style="color: #353535;"></i>
+                <p class="mx-3">Bath tub</p>
+              </div>
+              <hr>
+              <div class="d-flex" style="font-size: x-small;">
+                <i class="fa fa-bed fa-2x  pt-2 " style="color: #353535;"></i>
+                <p class="mx-3">Complimentary turndown</p>
+              </div>
+              <hr>
+              <div class="d-flex" style="font-size: x-small;">
+                <i class="fa fa-wifi fa-2x  pt-2 " style="color: #353535;"></i>
+                <p class="mx-3">High-speed internet</p>
+              </div>
+              <hr>
+              <div class="d-flex" style="font-size: x-small;">
+                <i class="fas fa-tv fa-2x  pt-2 " style="color: #353535;"></i>
+                <p class="mx-3">55” Smart Television (In-room dining, spa, activities)</p>
+              </div>
+              <hr>
+              
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <p class="mt-5 pt-5">Design and comfort are perfectly combined here, because we care about your well-being,
+                 all the materials used for room decoration are environment friendly, and your individual climate control can be adjusted accurately by degree.</p>
+                 <span><i>Accommodates two adults and up to two children below 12 years.</i><h1 style="color: #A3866A; ">₦24,000</h1><span><i>per night</i></span>
+            </div>
+          </div>   
+        
+      </div>
+
+
+
+
+ 
+  
+      <!--Footer-->
+      <div class="container-fluid footer mt-5 " id="contact">
+        <div class="row mx-auto">
+          <div class="col  m-3">
+            <img data-aos="fade-up" data-aos-duration="2000" class="center-block " src="img/Precious-Palm-Royal-Hotel-01-oz1j62zp7vk8b059aitic67jsxrs5k4rj12f3m63iw.png">
+          </div>
+        </div>
+      
+        <div class="row justify-content-center align-items-center mx-auto">
+          <div class="col-lg-4 col-md-4 col-sm mx-auto text-center">
+            <h5 data-aos="fade-up" data-aos-duration="2000" style="color: #A3866A;" class="footer-text"><i>HOME AWAY FROM HOME</i></h5>
+            <h5  data-aos="fade-up" data-aos-duration="2000" class="footer-text mt-5"> (+234) 08060883951</h5>
+            
+           
+          </div>
+      
+          <div class="col-lg-4 col-md-4 col-sm-12 link-col mx-auto text-center">
+            <h5 data-aos="fade-up" data-aos-duration="2000"><a href="Accomodation.html" class="footer-text mt-5">ACCOMMODATION</a></h5>
+            <h5 data-aos="fade-up" data-aos-duration="2000" style="padding-top: 3%;"><a href="dining.html" class="footer-text" >DINING</a></h5>
+            <h5 data-aos="fade-up" data-aos-duration="2000" style="padding-top: 3%;"><a href="Adventure.html" class="footer-text" >EXPERIENCE</a></h5>
+            <h5 data-aos="fade-up" data-aos-duration="2000" style="padding-top: 3%;"><a href="occassion.html" class="footer-text" >OCCASSION</a></h5>
+            <h5 data-aos="fade-up" data-aos-duration="2000" style="padding-top: 3%;"><a href="wellness.html" class="footer-text" >WELLNESS</a></h5>
+            <h5 data-aos="fade-up" data-aos-duration="2000" style="padding-top: 3%;"><a href="shop.html" class="footer-text" >SHOP</a></h5>
+          </div>
+      
+          <div class="col-lg-4 col-md-4 col-sm mx-auto text-center " style="margin-top: 3%;">
+            <a href="Accomodation.html"><button data-aos="fade-up" data-aos-duration="2000" class="btn intro-button" data-aos="fade-up" data-aos-duration="2000"><h5 class="text-white">Book Online</h5></button></a>
+            <h6 data-aos="fade-up" data-aos-duration="2000" class="text-center text-white mt-4"> Lagos-Benin Express way,<br> Isihor Village, B/C ED, NG</h6>
+            <h3 data-aos="fade-up" data-aos-duration="2000" class=" mt-5 link-direction"><a class="text-center" href="https://www.google.com/maps/place/Precious+Palm+Royal+Hotel/@6.4092054,5.6025204,17.25z/data=!4m9!3m8!1s0x1040d31a915d05f5:0x7298371258f27aa!5m2!4m1!1i2!8m2!3d6.4087616!4d5.6056633!16s%2Fg%2F11rkdp1558" style="color: #A3866A;">Get Directions <i class='fas fa-chevron-right' style='font-size:24px'></i></a</h3>
+            <div class="footer-font d-flex text-center mt-4 justify-content-center align-items-center">
+              <a href="https://web.facebook.com/precious.palm.3?_rdc=1&_rdr"><i class='fab fa-facebook-f m-2 te ' style='font-size:36px; color: #A3866A;'></i></a>
+              <a href="https://web.facebook.com/precious.palm.3?_rdc=1&_rdr"><i class="fab fa-instagram m-2 " style='font-size:36px; color: #A3866A;'></i></a>
+            </div>
+                
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col">
+            <p class="mt-3 text-white text-center" >&copy;2023 Precious Palm Royal Hotel</p>
+            <p class="text-center above_xx_screen" style="color: #A3866A;"><i>info@preciouspalmroyalhotel.com</i></p>
+            <!-- extreme small screen -->
+            <p class="text-center below_xx_screen" style="color: #A3866A;"><i>info@preciouspalm<br>royalhotel.com</i></p>
+            <p class="text-center" style="color: #A3866A;"><i>design by jimoh</i></p>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!--About-->
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-3" id="exampleModalLabel" style="color: #A3866A;">Precious Palm Royal Hotel</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-bod">
+              <div class="container">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-lg-8 col-md-8">
+                    <img class="modal-img" src="img/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg">
+                </div>
+              </div>
+      
+              <div class="row">
+                <div class="col-lg-8 col-md-8">
+                  <h3 class="mt-5" style="color: #A3866A;">About</h3>
+                  <p style="color: white;">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                     ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                      velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                   </p>
+                   <h3 class="mt-3" style="color: #A3866A;">Additional Policies</h3>
+                   <p class="p-2" style="color: white;">
+                    Pet Policy: PPRH Hotel is pet friendly in select rooms. The Hotel charges a #1000 per day, per pet non-refundable service fee. Service animals are welcome. Alcohol Policy: 
+                    TABC laws restrict guests from bringing alcohol into hotel public areas. Alcoholic beverages consumed in hotel public areas must be purchased through the Gage Hotel.
+                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      
+        <!--booking modal executive room-->
+    
+        <div class="modal fade" id="empleModalTogg" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalToggleLabel" style="color: #A3866A;"><i>Suit De Lodge Reservation</i></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+                <form action="/action_page.php">
+                  <div class="form-group">
+                    <label class="text m-2" for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Full Name" name="name">
+                  </div>
+                  <div class="form-group">
+                    <label class="email m-2 text" for="name">Email Address</label>
+                    <input type="email" class="form-control" id="name" placeholder="example@gmail.com" name="name">
+                  </div>
+                  <div class="form-group">
+                    <label class="text m-2" for="date">Check in</label>
+                    <input type="Date" class="form-control" id="date" placeholder="Enter password" name="date">
+                  </div>
+                  <div class="form-group">
+                    <label class="text m-2" for="date">Check out</label>
+                    <input type="Date" class="form-control" id="fate" placeholder="Enter password" name="date">
+                  </div>
+                  <div class="row form-group">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                      <label  class="text m-2" for= "comment">Rooms</label>
+                      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Numbers of rooms</option>
+                        <option value="1">1 room</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                        <option value="7">7 rooms</option>
+                        <option value="8">8 rooms</option>
+                        <option value="9">9 rooms</option>
+                        <option value="10">10 rooms</option>
+
+                      </select>
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-4">
+                    <label  class="text m-2" for= "comment">Guests</label>
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                      <option selected>Adults</option>
+                      <option value="1">1 </option>
+                      <option value="2">2 </option>
+                      <option value="3">3 </option>
+                      <option value="4">4 </option>
+                      <option value="5">5 </option>
+                      <option value="6">6 </option>
+                      <option value="7">7 </option>
+                      <option value="8">8 </option>
+                      <option value="9">9 </option>
+                      <option value="10">10 </option>
+
+                    </select>
+                 </div>
+                 <div class="col-lg-4 col-md-4 col-sm-4">
+                  <label  class="text m-2" for= "comment">Guests</label>
+                  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Childrens</option>
+                    <option value="1">1 </option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 </option>
+                    <option value="6">6 </option>
+                    <option value="7">7 </option>
+                    <option value="8">8 </option>
+                    <option value="9">9 </option>
+                    <option value="10">10 </option>
+
+                  </select>
+               </div>
+                   </div>
+                  <div class = "form-group">
+                    <label  class="text m-2" for= "comment">Further Details</label>
+                    <textarea class = "form-control h-50" rows = "3" placeholder = "Anything else we should know about?"></textarea>
+                 </div>
+                  <div class="justify-content-center align-items-center text-center mt-3">
+                    <button type="submit" class="btn btn-lg bt-modal" href="#">Submit</button>
+                  </div>
+                  
+                </form>
+    
+              </div>
+     
+      
+      
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+          
+              <script src="aos.js"></script>
+              <script>
+                AOS.init({
+                  easing: 'ease-in-out-sine'
+                });     
+              </script>
+              <script>
+                
+              </script>
+      </body>
+     </html>
+          
